@@ -10,8 +10,11 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm NokoDev</h1>
         <p className={styles.description}>
-          I'm a software developer with 3 years of experience using React and
-          NodeJS. Reach out if you'd like to learn more!
+          I'm a junior software developer with 2 years of experience using React
+          and NodeJS. I specialize in creating dynamic and responsive web
+          applications. I am passionate about learning new technologies and
+          improving my skills. Reach out if you'd like to learn more about my
+          work or discuss potential opportunities!
         </p>
         <a href="mailto:elvisnoko18@email.com" className={styles.contactBtn}>
           Contact Me
