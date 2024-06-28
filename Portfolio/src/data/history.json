@@ -1,31 +1,13 @@
-
 [
-    {
-      "role": "Software Engineer",
-      "organisation": "Google",
-      "startDate": "Sept, 2022",
-      "endDate": "Present",
-      "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
-      "imageSrc": "history/google.png"
-    },
-    {
-      "role": "UI Designer",
-      "organisation": "Mirosoft",
-      "startDate": "Aug, 2021",
-      "endDate": "Aug, 2022",
-      "experiences": ["Worked on Windows 11", "Designed the control panel"],
-      "imageSrc": "history/microsoft.png"
-    },
-    {
-      "role": "SWE Intern",
-      "organisation": "Netflix",
-      "startDate": "Apr, 2020",
-      "endDate": "Jun, 2020",
-      "experiences": [
-        "Worked on component library",
-        "Helped create UI components"
-      ],
-      "imageSrc": "history/netflix.png"
-    }
-  ]
-  
+  {
+    "role": "IT Intern",
+    "organisation": "Pitersburg Provincial Hospital",
+    "startDate": "Jan, 2024",
+    "endDate": "Present",
+    "experiences": [
+      "Maintained hospital IT systems",
+      "Improved network security protocols"
+    ],
+    "imageSrc": "history/google.png"
+  }
+]
