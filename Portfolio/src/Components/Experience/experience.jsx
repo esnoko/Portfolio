@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-
-import styles from "./Experience.module.css";
+import styles from "./experience.module.css";
 import skills from "../../data/skills.json";
 import history from "../../data/history.json";
 import { getImageUrl } from "../../utils";
@@ -35,8 +34,8 @@ export const Experience = () => {
                   <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
                   <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
                   <ul>
-                    {historyItem.experiences.map((experience, id) => {
-                      return <li key={id}>{experience}</li>;
+                    {historyItem.experiences.map((experience, expId) => {
+                      return <li key={expId}>{experience}</li>;
                     })}
                   </ul>
                 </div>

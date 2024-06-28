@@ -5,14 +5,12 @@ import { Hero } from "./Components/Hero/Hero";
 import { Navbar } from "./Components/Navbar/navbar";
 
 function App() {
-  return (
-    <div className={styles.App}>
-      <Navbar />
-      <Hero />
-      <About />
-      <Experience />
-    </div>
-  );
+  return <div className={styles.App}>
+    <Navbar/>
+    <Hero/>
+    <About/>
+    <Experience/>
+  </div>;
 }
 
 export default App;
