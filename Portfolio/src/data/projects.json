@@ -1,13 +1,10 @@
-
 [
-    {
-      "title": "Project A",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    }
-  ]
-  
-  
+  {
+    "title": "Appointment Form Project",
+    "imageSrc": "projects/project.png",
+    "description": "This is an appointment form project built to demonstrate skills in HTML, CSS, and JavaScript, with validation and responsive design.",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/esnoko/Appointment-Form"
+  }
+]
