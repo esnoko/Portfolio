@@ -2,14 +2,15 @@
 
 .container {
   color: var(--color-text);
-  margin-top: 120px;
-  background-color: var(--color-secondary);
+  background-color: var(--color-bg);
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   width: 100vw;
+  height: 100vh; /* Ensure it takes the full viewport height */
   padding: 58px 10%;
   gap: 10px;
+  align-items: center; /* Center content vertically */
 }
 
 .text h2 {
@@ -50,12 +51,14 @@
   .container {
     flex-direction: column;
     gap: 23px;
+    padding: 58px 5%;
   }
 
   .text {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
   }
 
   .links {
