@@ -20,7 +20,7 @@ export const About = () => {
                         <div className={styles.aboutItemText}>
                             <h3>Junior Frontend Developer</h3>
                             <p>
-                                I am a qualified frontend developer with knowledge in building responsive and optimized websites, ready to apply my skills in a professional environment.
+                                I am a qualified frontend developer with knowledge in building responsive and optimized websites, ready to apply my skills in professional environment.
                             </p>
 
                         </div>
@@ -30,7 +30,7 @@ export const About = () => {
                         <div className={styles.aboutItemText}>
                             <h3>Junior Backend Developer</h3>
                             <p>
-                                I am qualified in developing fast and optimized back-end systems and APIs, eager to apply my knowledge and skills in a professional setting.
+                                I am qualified in developing fast and optimized back-end systems and APIs, eager to apply my knowledge and skills in professional setting.
                             </p>
 
                         </div>
