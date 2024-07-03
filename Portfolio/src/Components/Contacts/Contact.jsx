@@ -3,26 +3,31 @@ import React from "react";
 
 import styles from "./Contact.module.css";
 import { getImageUrl } from "../../utils";
-import contacts from "../../data/contacts.json";
 
 export const Contact = () => {
   return (
-    <section className={styles.container} id="contact">
-      <h2 className={styles.title}>Contact</h2>
-      <div className={styles.content}>
-        <div className={styles.contacts}>
-          {contacts.map((contact, id) => {
-            return (
-              <div key={id} className={styles.contact}>
-                <div className={styles.contactImageContainer}>
-                  <img src={getImageUrl(contact.imageSrc)} alt={contact.title} />
-                </div>
-                <p>{contact.title}</p>
-              </div>
-            );
-          })}
-        </div>
+    <footer id="contact" className={styles.container}>
+      <div className={styles.text}>
+        <h2>Contact</h2>
+        <p>Feel free to reach out!</p>
       </div>
-    </section>
+      <ul className={styles.links}>
+        <li className={styles.link}>
+          <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
+          <a href="mailto:myemail@email.com">myemail@email.com</a>
+        </li>
+        <li className={styles.link}>
+          <img
+            src={getImageUrl("contact/linkedinIcon.png")}
+            alt="LinkedIn icon"
+          />
+          <a href="https://www.linkedin.com/myname">linkedin.com/myname</a>
+        </li>
+        <li className={styles.link}>
+          <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
+          <a href="https://www.github.com/myname">github.com/myname</a>
+        </li>
+      </ul>
+    </footer>
   );
 };
