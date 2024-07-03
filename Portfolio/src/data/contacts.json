@@ -1,6 +1,6 @@
 [
     {
-        "role": "Contact",
+        "greeting": "Hi User",
         "context": "Feel free to reach out!"
     } 
   ]
