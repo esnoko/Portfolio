@@ -8,4 +8,15 @@
 
   /* Fonts */
   --font-roboto: "Roboto";
+
+  /* Add responsive padding */
+  --padding-mobile: 20px;
+  --padding-desktop: 10%;
+}
+
+@media screen and (max-width: 830px) {
+  :root {
+    /* Adjust any variables needed for mobile */
+    --section-padding: var(--padding-mobile);
+  }
 }

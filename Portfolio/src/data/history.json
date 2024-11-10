@@ -13,6 +13,21 @@
       "Conducted regular system backups and data recovery drills"
     ],
     "imageSrc": "history/google.png"
+  },
+
+  {
+    "role": "Web Developer Intern",
+    "organisation": "Hexsoftwares",
+    "startDate": "Oct, 2024",
+    "endDate": "Present",
+    "experiences": [
+      "Developed and maintained responsive web applications",
+      "Built interactive user interfaces with JavaScript and React",
+      "Integrated APIs to enhance functionality",
+      "Collaborated in an agile team environment",
+      "Optimized performance using Node.js",
+      "Assisted in front-end and back-end development tasks"
+    ],
+    "imageSrc": "history/hexsoftwares.png"
   }
-  
 ]
